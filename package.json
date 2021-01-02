@@ -1,0 +1,53 @@
+{
+  "name": "bucinbotwa",
+  "version": "3.0.0",
+  "description": "Halo sesama pengguna, <b>whatsapp-bot</b> adalah skrip otomatisasi whatsapp atau lebih seperti bot yang merespons kata kunci tertentu dan beberapa fitur lain yang sedang kami kerjakan.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TEEN BOCHEN",
+  "license": "MIT",
+  "dependencies": {
+    "@open-wa/wa-automate": "^3.1.12",
+    "@open-wa/wa-decrypt": "^2.0.1",
+    "app-root-path": "^3.0.0",
+    "axios": "^0.19.2",
+    "brainly-scraper": "^1.0.2",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3",
+    "emoji-regex": "^9.0.0",
+    "fs-extra": "^9.0.1",
+    "google-translate-open-api": "^1.3.5",
+    "got": "^11.7.0",
+    "moment-timezone": "^0.5.31",
+    "needle": "^2.5.2",
+    "nhentai-api": "^3.0.2",
+    "nhentai-js": "^4.0.0",
+    "node-fetch": "^2.6.1",
+    "node-gtts": "^2.0.2",
+    "parse-ms": "^2.1.0",
+    "promise": "^8.1.0",
+    "remove.bg": "^1.3.0",
+    "request": "^2.88.2",
+    "tiktok-scraper": "^1.4.8",
+    "update-json-file": "^1.1.1",
+    "video-url-link": "^0.1.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bucinganteng/bucinbotwa.git"
+  },
+  "keywords": [
+    "Whatsapp-Bot"
+  ],
+  "bugs": {
+    "url": "https://github.com/bucinganteng/bucinbotwa/issues"
+  },
+  "homepage": "https://github.com/bucinganteng/bucinbotwa#readme"
+}
